@@ -74,7 +74,8 @@ class ReviewList(View):
             'books': books,
         }
 
-        return render(request, "review-book.html", context)
+        return render(request, "list-to-review.html", context)
+        return render(request, "list-to-review.html", context)
 
 
 
