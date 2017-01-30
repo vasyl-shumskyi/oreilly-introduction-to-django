@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27d06983-c1de-4465-877a-4fd846eb2c67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readit/settings.py" afterPath="$PROJECT_DIR$/readit/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/tests/test_views.py" afterPath="$PROJECT_DIR$/books/tests/test_views.py" />
-    </list>
+    <list default="true" id="27d06983-c1de-4465-877a-4fd846eb2c67" name="Default" comment="" />
     <ignored path="readit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -91,13 +88,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/books/tests/test_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85783523" vertical-offset="1075" max-vertical-offset="1738">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1738">
               <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/books/tests/test_forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.80613893" vertical-offset="146" max-vertical-offset="795">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,18 +146,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1013" max-vertical-offset="1860">
-              <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -178,6 +175,7 @@
         <option value="$PROJECT_DIR$/books/tests/test_models.py" />
         <option value="$PROJECT_DIR$/readit/settings.py" />
         <option value="$PROJECT_DIR$/books/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/books/tests/test_forms.py" />
       </list>
     </option>
   </component>
@@ -185,8 +183,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="728" />
-    <option name="y" value="49" />
+    <option name="x" value="868" />
+    <option name="y" value="131" />
     <option name="width" value="1554" />
     <option name="height" value="716" />
   </component>
@@ -561,7 +559,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="728" y="49" width="1554" height="716" extended-state="0" />
+    <frame x="868" y="131" width="1554" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -925,10 +923,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/books/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85783523" vertical-offset="1075" max-vertical-offset="1738">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1738">
           <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80613893" vertical-offset="146" max-vertical-offset="795">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
