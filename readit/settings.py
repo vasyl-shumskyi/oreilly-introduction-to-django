@@ -113,6 +113,10 @@ elif DJANGO_MODE == 'staging':
         }
     }
 
+elif DJANGO_MOD == 'production':
+    import dj_database_url
+    # Handles DATABASE_URL environment variable
+    DATABASES = {'default': dj_database_url.config()}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -132,6 +136,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'staticfiles'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'readit', 'static'),
