@@ -113,7 +113,7 @@ elif DJANGO_MODE == 'staging':
         }
     }
 
-elif DJANGO_MOD == 'production':
+elif DJANGO_MODE == 'production':
     import dj_database_url
     # Handles DATABASE_URL environment variable
     DATABASES = {'default': dj_database_url.config()}
