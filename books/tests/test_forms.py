@@ -40,7 +40,7 @@ class BookFormTest(TestCase):
     def test_custom_validation_accepts_new_book(self):
         new_author = AuthorFactory()
         form = BookForm(data={
-            'title': "MyNewBook",
+            'title': "MyNewBook"
             'authors': [new_author.pk,],
         })
 
