@@ -30,7 +30,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 
     #Custom
-    #url(r'^$', list_books, name='books'),
+    url(r'^$', list_books, name='books'),
     url(r'^authors/$', AuthorList.as_view(), name='authors'),
     url(r'^books/(?P<pk>[-\w]+)/$', BookDetail.as_view(), name='book-detail'),
     url(r'^authors/add/$', login_required(CreateAuthor.as_view()), name='add-author'),
